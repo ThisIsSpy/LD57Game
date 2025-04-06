@@ -10,6 +10,7 @@ namespace GameOver
         [SerializeField] private TextMeshProUGUI gameOverText;
         [SerializeField] private TextMeshProUGUI gameOverDescriptionText;
         [SerializeField] private TextMeshProUGUI finalScoreText;
+        [SerializeField] private TextMeshProUGUI furthestDepthText;
 
         void Start()
         {
@@ -25,6 +26,7 @@ namespace GameOver
                 gameOverDescriptionText.text = "What a shame. It seems that you have died. How unfortunate. Sad. Not cool. Your parents and/or SO would be disappointed";
             }
             finalScoreText.text = PlayerPrefs.GetInt("Score", 999999).ToString();
+            furthestDepthText.text = $"{PlayerPrefs.GetFloat("Depth", 100)} m";
         }
     }
 }

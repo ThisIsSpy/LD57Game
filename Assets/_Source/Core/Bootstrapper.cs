@@ -1,4 +1,5 @@
-﻿using Player;
+﻿using DepthMeter;
+using Player;
 using Score;
 using UnityEngine;
 
@@ -10,11 +11,13 @@ namespace Core
         [SerializeField] private InputListener inputListener;
         [SerializeField] private ScoreCounter scoreCounter;
         [SerializeField] private PlayerHPDisplay playerHPDisplay;
+        [SerializeField] private DepthMeterDisplayer depthMeterDisplayer;
 
         void Start()
         {
             playerHandler.Construct(scoreCounter, playerHPDisplay);
             inputListener.Construct(playerHandler);
+            depthMeterDisplayer.Construct(playerHandler);
         }
     }
 }
