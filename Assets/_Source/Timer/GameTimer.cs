@@ -8,7 +8,7 @@ namespace Timer
 {
     public class GameTimer : MonoBehaviour
     {
-        [SerializeField] private float timeBeforeGameEnds = 300f;
+        [SerializeField] private float timeBeforeGameEnds = 180f;
         private TextMeshProUGUI timerDisplay;
         private float elapsedSeconds = 0f;
         private float remainingTime;
@@ -16,6 +16,7 @@ namespace Timer
         void Start()
         {
             timerDisplay = GetComponent<TextMeshProUGUI>();
+            timeBeforeGameEnds = PlayerPrefs.GetFloat("Timer", timeBeforeGameEnds);
             remainingTime = timeBeforeGameEnds;
         }
 
@@ -30,7 +31,11 @@ namespace Timer
             if(minutes < 10) minutesStr = "0" + minutesStr;
             if (seconds < 10) secondsStr = "0" + secondsStr;
             timerDisplay.text = $"{minutesStr}:{secondsStr}";
-            if (remainingTime <= 0) SceneManager.LoadScene("MainMenu");
+            if (remainingTime <= 0)
+            {
+                PlayerPrefs.SetString("GameOver", "No");
+                SceneManager.LoadScene("GameOver");
+            }
         }
     }
 }

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97cfffdc2a4032479f65deb11f0c89d, type: 3}
+  m_Name: OceanLocationListSO
+  m_EditorClassIdentifier: 
+  <Prefabs>k__BackingField:
+  - {fileID: 1245878167445630176, guid: db02284f9b71df941aad180004944d90, type: 3}
+  - {fileID: 2437947007072953868, guid: bde0c9c1c6e7c974e93e31de371e2251, type: 3}
+  - {fileID: 2920179885690511123, guid: 73f213e8b231d564fb42b854d1683ce9, type: 3}
+  - {fileID: 5291297527085373556, guid: de5b2b417c806094dae1bd4433ddc3a2, type: 3}

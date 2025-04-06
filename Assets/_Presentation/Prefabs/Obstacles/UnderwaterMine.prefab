@@ -134,3 +134,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <Damage>k__BackingField: 1
+  explosionSprite: {fileID: 21300000, guid: f5835f8d0d6414c4db25c6624175a27b, type: 3}

@@ -1,19 +1,22 @@
 ﻿using Obstacles;
 using Score;
+using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Player
 {
     public class PlayerHandler : MonoBehaviour
     {
         [field: SerializeField] public float Speed { get; set; } = 1f;
-        [SerializeField] private Sprite[] sprites;
+        [SerializeField] private Sprite deathSprite;
         [SerializeField] private Camera mainCamera;
         [Header("Sound Stuff")]
         [SerializeField] private AudioSource sfxPlayer;
         [SerializeField] private AudioClip itemPickupSFX;
         [SerializeField] private AudioClip obstacleExplosionSFX;
         public Rigidbody2D PlayerRB { get; private set; }
+        public bool CanBeControlled { get; private set; }
         private SpriteRenderer spriteRenderer;
         private ParticleSystem bubblesParticleSystem;
         private ScoreCounter scoreCounter;
@@ -24,6 +27,8 @@ namespace Player
         {
             this.scoreCounter = scoreCounter;
             this.playerHPDisplay = playerHPDisplay;
+
+            this.playerHPDisplay.ZeroLivesLeft += PlayerDeath;
         }
 
         void Start()
@@ -31,6 +36,7 @@ namespace Player
             PlayerRB = GetComponent<Rigidbody2D>();
             spriteRenderer = GetComponent<SpriteRenderer>();
             bubblesParticleSystem = GetComponentInChildren<ParticleSystem>();
+            CanBeControlled = true;
         }
 
         void Update()
@@ -55,8 +61,15 @@ namespace Player
             {
                 playerHPDisplay.Lives -= obstacle.Damage;
                 sfxPlayer.PlayOneShot(obstacleExplosionSFX);
+                if(playerHPDisplay.Lives > 0) PlayerRB.AddRelativeForce(new(-obstacle.Force, 0), ForceMode2D.Impulse);
                 obstacle.DestroyObstacle();
+                StartCoroutine(DisableControlsCoroutine());
             }
+        }
+
+        void OnDestroy()
+        {
+            playerHPDisplay.ZeroLivesLeft -= PlayerDeath;
         }
 
         private void RotateTowardsMouse()
@@ -85,7 +98,34 @@ namespace Player
             var main = bubblesParticleSystem.main;
             main.startSpeed = Mathf.Lerp(main.startSpeed.constant, Mathf.Abs(PlayerRB.velocity.x) * 0.75f, Time.deltaTime);
             if (transform.position.y >= 53 && !bubblesParticleSystem.isStopped) bubblesParticleSystem.Stop();
-            else if (transform.position.y < 53 && bubblesParticleSystem.isStopped) bubblesParticleSystem.Play();
+            else if (transform.position.y < 53 && bubblesParticleSystem.isStopped && playerHPDisplay.Lives > 0) bubblesParticleSystem.Play();
+        }
+
+        public void PlayerDeath()
+        {
+            StartCoroutine(PlayerDeathCoroutine());
+        }
+
+        private IEnumerator DisableControlsCoroutine()
+        {
+            CanBeControlled = false;
+            yield return new WaitForSeconds(1.2f);
+            CanBeControlled = true;
+        }
+
+        private IEnumerator PlayerDeathCoroutine()
+        {
+            CanBeControlled = false;
+            bubblesParticleSystem.Stop();
+            Color currentColor = spriteRenderer.color;
+            while(spriteRenderer.color.a > 0)
+            {
+                float a = spriteRenderer.color.a - 0.15f;
+                spriteRenderer.color = new(currentColor.r, currentColor.g, currentColor.b, a);
+                yield return new WaitForSeconds(0.15f);
+            }
+            yield return new WaitForSeconds(0.5f);
+            SceneManager.LoadScene("GameOver");
         }
     }
 }

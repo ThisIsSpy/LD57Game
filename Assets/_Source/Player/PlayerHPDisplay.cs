@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -9,6 +10,7 @@ namespace Player
     {
         [SerializeField] private int startingLives = 3;
         [SerializeField] private GameObject lifeIconPrefab;
+        public event Action ZeroLivesLeft;
         private int lives;
         private bool isSetup;
         public int Lives { get { return lives; }
@@ -29,7 +31,12 @@ namespace Player
                         lifeIcons[i].enabled = false;
                     }
                 }
-                if (lives <= 0) SceneManager.LoadScene("MainMenu");
+                if (lives <= 0)
+                {
+                    PlayerPrefs.SetString("GameOver", "Yes");
+                    ZeroLivesLeft?.Invoke();
+                    //SceneManager.LoadScene("GameOver");
+                }
             }
         }
         private List<SpriteRenderer> lifeIcons;
@@ -38,6 +45,7 @@ namespace Player
         {
             isSetup = false;
             lifeIcons = new();
+            startingLives = PlayerPrefs.GetInt("Lives", startingLives);
             for(int i = 0; i < startingLives; i++)
             {
                 GameObject instantiatedIconPrefab = Instantiate(lifeIconPrefab, new(transform.position.x, transform.position.y, -1f), Quaternion.identity, transform);

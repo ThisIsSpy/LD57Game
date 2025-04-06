@@ -16,6 +16,7 @@ namespace Score
                 if (value == score) return;
                 score = Mathf.Clamp(value, 0, 999999);
                 scoreCounter.text = score.ToString();
+                PlayerPrefs.SetInt("Score", score);
             }
         }
 
