@@ -1,5 +1,6 @@
 ﻿using Obstacles;
 using Score;
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -17,6 +18,7 @@ namespace Player
         [SerializeField] private AudioClip obstacleExplosionSFX;
         public Rigidbody2D PlayerRB { get; private set; }
         public bool CanBeControlled { get; private set; }
+        public event Action PlayerGotHurt;
         private SpriteRenderer spriteRenderer;
         private ParticleSystem bubblesParticleSystem;
         private ScoreCounter scoreCounter;
@@ -64,6 +66,7 @@ namespace Player
                 if(playerHPDisplay.Lives > 0) PlayerRB.AddRelativeForce(new(-obstacle.Force, 0), ForceMode2D.Impulse);
                 obstacle.DestroyObstacle();
                 StartCoroutine(DisableControlsCoroutine());
+                if (playerHPDisplay.Lives > 0) StartCoroutine(PlayerHurtCoroutine());
             }
         }
 
@@ -126,6 +129,19 @@ namespace Player
             }
             yield return new WaitForSeconds(0.5f);
             SceneManager.LoadScene("GameOver");
+        }
+
+        private IEnumerator PlayerHurtCoroutine()
+        {
+            PlayerGotHurt?.Invoke();
+            Color currentColor = spriteRenderer.color;
+            for(int i = 0; i < 6; i++)
+            {
+                if (i % 2 == 0) spriteRenderer.color = new(currentColor.r, currentColor.g, currentColor.b, 0.15f);
+                else spriteRenderer.color = new(currentColor.r, currentColor.g, currentColor.b, 1f);
+                yield return new WaitForSeconds(0.2f);
+            }
+            spriteRenderer.color = currentColor;
         }
     }
 }

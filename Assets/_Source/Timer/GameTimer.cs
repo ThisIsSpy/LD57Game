@@ -26,6 +26,8 @@ namespace Timer
             remainingTime = timeBeforeGameEnds - elapsedSeconds;
             float minutes = Mathf.FloorToInt(remainingTime / 60);
             float seconds = Mathf.FloorToInt(remainingTime % 60);
+            if(minutes < 0) minutes = 0;
+            if(seconds < 0) seconds = 0;
             string minutesStr = minutes.ToString();
             string secondsStr = seconds.ToString();
             if(minutes < 10) minutesStr = "0" + minutesStr;

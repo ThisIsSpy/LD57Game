@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97cfffdc2a4032479f65deb11f0c89d, type: 3}
+  m_Name: FishListSO
+  m_EditorClassIdentifier: 
+  <Prefabs>k__BackingField:
+  - {fileID: 7676541044785761621, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+  - {fileID: 7676541044785761621, guid: cc247fdc3e518dd4790e26b45224eba6, type: 3}
+  - {fileID: 7676541044785761621, guid: 84f884b9561abfc4989f9cfd87f29127, type: 3}

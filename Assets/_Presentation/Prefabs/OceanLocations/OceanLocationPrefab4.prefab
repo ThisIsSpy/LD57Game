@@ -39,11 +39,11 @@ Transform:
   - {fileID: 9159783143877564286}
   - {fileID: 2569949380767977269}
   - {fileID: 3266131393291500731}
-  - {fileID: 6144079490225221978}
-  - {fileID: 4908218780363471099}
-  - {fileID: 2501622818306896687}
-  - {fileID: 6753694958144407828}
-  - {fileID: 4470529916088095760}
+  - {fileID: 2159372900876763421}
+  - {fileID: 913944241104308412}
+  - {fileID: 7639241016126456680}
+  - {fileID: 1516152043284543827}
+  - {fileID: 8554876448711533655}
   - {fileID: 678650915962628368}
   - {fileID: 831040500997519538}
   - {fileID: 5724500297604936513}
@@ -125,58 +125,58 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1809889794228310403}
     m_Modifications:
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 414664571474978212, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
+      propertyPath: m_Name
+      value: FishDecorationSpawner (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.586234
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.y
       value: 10.231386
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7676541044785761621, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
-      propertyPath: m_Name
-      value: OrangeFishDecoration (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
---- !u!4 &2501622818306896687 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
+--- !u!4 &7639241016126456680 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
   m_PrefabInstance: {fileID: 867529713654313768}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1204460402406560791
@@ -187,58 +187,58 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1809889794228310403}
     m_Modifications:
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 414664571474978212, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
+      propertyPath: m_Name
+      value: FishDecorationSpawner (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.3498154
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.y
       value: 12.501331
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7676541044785761621, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
-      propertyPath: m_Name
-      value: OrangeFishDecoration (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
---- !u!4 &4470529916088095760 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
+--- !u!4 &8554876448711533655 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
   m_PrefabInstance: {fileID: 1204460402406560791}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2213805375248571988
@@ -1055,58 +1055,58 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1809889794228310403}
     m_Modifications:
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 414664571474978212, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
+      propertyPath: m_Name
+      value: FishDecorationSpawner (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.89538
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.y
       value: -17.797514
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7676541044785761621, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
-      propertyPath: m_Name
-      value: OrangeFishDecoration (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
---- !u!4 &4908218780363471099 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
+--- !u!4 &913944241104308412 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
   m_PrefabInstance: {fileID: 7683395942446315772}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7840351894582167281
@@ -1365,58 +1365,58 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1809889794228310403}
     m_Modifications:
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 414664571474978212, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
+      propertyPath: m_Name
+      value: FishDecorationSpawner (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.0652494
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.y
       value: 8.948372
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7676541044785761621, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
-      propertyPath: m_Name
-      value: OrangeFishDecoration (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
---- !u!4 &6753694958144407828 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
+--- !u!4 &1516152043284543827 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
   m_PrefabInstance: {fileID: 8287864488184301843}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8933380935502836061
@@ -1427,58 +1427,58 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1809889794228310403}
     m_Modifications:
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 414664571474978212, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
+      propertyPath: m_Name
+      value: FishDecorationSpawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.954872
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.y
       value: -12.369383
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7676541044785761621, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
-      propertyPath: m_Name
-      value: OrangeFishDecoration
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
---- !u!4 &6144079490225221978 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
+--- !u!4 &2159372900876763421 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
   m_PrefabInstance: {fileID: 8933380935502836061}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9127762783798808898

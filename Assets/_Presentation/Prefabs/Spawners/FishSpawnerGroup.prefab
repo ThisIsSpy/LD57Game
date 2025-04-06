@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6703072292885421687}
   m_Layer: 0
-  m_Name: OrangeFishGroup
+  m_Name: FishSpawnerGroup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,12 +29,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8472426383312054320}
-  - {fileID: 266420820854841592}
-  - {fileID: 7172333693577961383}
-  - {fileID: 8254288525333288855}
-  - {fileID: 7892384805114450410}
-  - {fileID: 4336555313915014937}
+  - {fileID: 4406665995507734647}
+  - {fileID: 5404603068118225087}
+  - {fileID: 3115007659493421024}
+  - {fileID: 4196961392817645520}
+  - {fileID: 2681022361623847341}
+  - {fileID: 8402889645691690846}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1338434454707449630
@@ -45,58 +45,58 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6703072292885421687}
     m_Modifications:
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 414664571474978212, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
+      propertyPath: m_Name
+      value: FishDecorationSpawner (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7676541044785761621, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
-      propertyPath: m_Name
-      value: OrangeFishDecoration (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
---- !u!4 &4336555313915014937 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
+--- !u!4 &8402889645691690846 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
   m_PrefabInstance: {fileID: 1338434454707449630}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3246846070131892479
@@ -107,58 +107,58 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6703072292885421687}
     m_Modifications:
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 414664571474978212, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
+      propertyPath: m_Name
+      value: FishDecorationSpawner (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.y
       value: -1.25
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7676541044785761621, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
-      propertyPath: m_Name
-      value: OrangeFishDecoration (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
---- !u!4 &266420820854841592 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
+--- !u!4 &5404603068118225087 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
   m_PrefabInstance: {fileID: 3246846070131892479}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4844460555497247213
@@ -169,58 +169,58 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6703072292885421687}
     m_Modifications:
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 414664571474978212, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
+      propertyPath: m_Name
+      value: FishDecorationSpawner (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.5
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.75
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7676541044785761621, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
-      propertyPath: m_Name
-      value: OrangeFishDecoration (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
---- !u!4 &7892384805114450410 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
+--- !u!4 &2681022361623847341 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
   m_PrefabInstance: {fileID: 4844460555497247213}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5563254375402446752
@@ -231,58 +231,58 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6703072292885421687}
     m_Modifications:
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 414664571474978212, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
+      propertyPath: m_Name
+      value: FishDecorationSpawner (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.75
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.y
       value: -1
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7676541044785761621, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
-      propertyPath: m_Name
-      value: OrangeFishDecoration (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
---- !u!4 &7172333693577961383 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
+--- !u!4 &3115007659493421024 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
   m_PrefabInstance: {fileID: 5563254375402446752}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6568926629646690359
@@ -293,58 +293,58 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6703072292885421687}
     m_Modifications:
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 414664571474978212, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
+      propertyPath: m_Name
+      value: FishDecorationSpawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.25
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7676541044785761621, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
-      propertyPath: m_Name
-      value: OrangeFishDecoration
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
---- !u!4 &8472426383312054320 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
+--- !u!4 &4406665995507734647 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
   m_PrefabInstance: {fileID: 6568926629646690359}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6642957545865828240
@@ -355,57 +355,57 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6703072292885421687}
     m_Modifications:
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 414664571474978212, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
+      propertyPath: m_Name
+      value: FishDecorationSpawner (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.25
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+    - target: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7676541044785761621, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
-      propertyPath: m_Name
-      value: OrangeFishDecoration (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
---- !u!4 &8254288525333288855 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
+--- !u!4 &4196961392817645520 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3368016456532328455, guid: e4ade6409d2920b4e8fca9db6c4bafa4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7353846677779378240, guid: 29cc472e856333c4fa95440ccf9caf1f, type: 3}
   m_PrefabInstance: {fileID: 6642957545865828240}
   m_PrefabAsset: {fileID: 0}
